@@ -106,7 +106,7 @@ export default function Home() {
       </motion.section>
 
       {/* TESTIMONIALS */}
-      <section className="mt-24 max-w-4xl text-center">
+      {/* <section className="mt-24 max-w-4xl text-center">
         <h2 className="text-3xl font-semibold text-slate-200 mb-10">Trusted by Early Users</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {[{
@@ -126,7 +126,7 @@ export default function Home() {
             </motion.div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* FEATURES SECTION */}
       <section className="mt-24 w-full max-w-5xl">
