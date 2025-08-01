@@ -153,9 +153,69 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer className="mt-24 py-8 w-full text-center text-sm text-gray-500 border-t border-gray-800">
-        FYNX © 2025 • Built with 💙 by VIGNESH POBBATHI.
-      </footer>
+      {/* FOOTER */}
+<footer className="mt-24 py-8 w-full text-center text-sm text-gray-500 border-t border-gray-800">
+  <div className="flex flex-col items-center gap-4">
+    <p>FYNX © 2025 • Built with 💙 by VIGNESH POBBATHI</p>
+    
+    {/* Social Media Icons */}
+    <div className="flex gap-5 text-gray-400">
+      <a href="https://www.linkedin.com/company/fynxdev
+" target="_blank" rel="noopener noreferrer" className="hover:text-[#59d3be] transition">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M19 0h-14c-2.76 0-5 2.24-5 
+            5v14c0 2.76 2.24 5 5 5h14c2.76 
+            0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
+            19h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 
+            1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 
+            1.76zm13.5 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 
+            0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.88v1.36h.04c.4-.75 
+            1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 
+            4.59v5.59z"/>
+        </svg>
+      </a>
+
+      {/* <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" className="hover:text-[#59d3be] transition">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M24 4.56c-.89.39-1.85.65-2.85.77 
+            1.02-.61 1.8-1.57 2.17-2.72-.95.56-2 
+            .97-3.12 1.19-.9-.96-2.18-1.56-3.6-1.56-2.72 
+            0-4.93 2.21-4.93 4.93 0 .39.04.77.13 
+            1.13-4.1-.21-7.73-2.17-10.16-5.15-.43.74-.68 
+            1.6-.68 2.52 0 1.74.89 3.27 2.25 
+            4.17-.83-.03-1.6-.25-2.28-.63v.06c0 
+            2.43 1.73 4.46 4.02 4.92-.42.11-.86.17-1.31.17-.32 
+            0-.63-.03-.93-.09.63 1.97 2.46 3.4 4.63 
+            3.45-1.7 1.33-3.84 2.12-6.16 2.12-.4 
+            0-.79-.02-1.17-.07 2.2 1.41 4.82 2.24 
+            7.63 2.24 9.15 0 14.15-7.58 
+            14.15-14.15 0-.21 0-.43-.02-.64.97-.7 
+            1.8-1.57 2.46-2.56z"/>
+        </svg>
+      </a> */}
+
+      <a href="https://www.instagram.com/vignesh_pobbathi_/" target="_blank" rel="noopener noreferrer" className="hover:text-[#59d3be] transition">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M7.75 2h8.5C19.55 2 21 3.45 21 
+            5.75v12.5c0 2.3-1.45 3.75-3.75 
+            3.75h-8.5C5.45 22 4 20.55 4 
+            18.25V5.75C4 3.45 5.45 2 7.75 
+            2zm0-2C3.47 0 0 3.47 0 7.75v8.5C0 
+            20.53 3.47 24 7.75 24h8.5C20.53 24 
+            24 20.53 24 16.25v-8.5C24 3.47 20.53 
+            0 16.25 0h-8.5zM12 7c2.76 0 5 2.24 
+            5 5s-2.24 5-5 5-5-2.24-5-5 
+            2.24-5 5-5zm0-2C8.14 5 5 8.14 
+            5 12s3.14 7 7 7 7-3.14 
+            7-7-3.14-7-7-7zm5.5-3c-.83 
+            0-1.5.67-1.5 1.5S16.67 5 17.5 
+            5 19 4.33 19 3.5 18.33 2 17.5 2z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
     </main>
   );
 } 
