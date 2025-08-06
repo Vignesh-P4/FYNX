@@ -3,9 +3,11 @@
 import { useState, useEffect } from "react";
 import { Pause, Play } from "lucide-react";
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 export default function HeroSlide() {
   const [isPaused, setIsPaused] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const video = document.getElementById("heroVideo") as HTMLVideoElement;
@@ -54,7 +56,7 @@ export default function HeroSlide() {
 
         <motion.button
           className="mt-8 px-8 py-4 bg-white text-black font-semibold uppercase tracking-wider hover:bg-gray-300 transition"
-          whileHover={{ scale: 1.05 }}
+          whileHover={{ scale: 1.05 }} onClick={()=> router.push('/login')}
         >
           Discover Platform →
         </motion.button>

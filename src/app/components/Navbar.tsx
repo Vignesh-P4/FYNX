@@ -1,6 +1,8 @@
+// components/Navbar.tsx
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { Menu, Search } from "lucide-react";
 
 export default function Navbar() {
@@ -13,19 +15,23 @@ export default function Navbar() {
 
       {/* Center: Logo */}
       <div className="absolute left-1/2 transform -translate-x-1/2">
-        <Image
-          src="/fynx-logo.png"
-          alt="FYNX Logo"
-          width={50}
-          height={50}
-          priority
-        />
+        <Link href="/">
+          <Image
+            src="/fynx-logo1.png"
+            alt="FYNX Logo"
+            width={50}
+            height={50}
+            priority
+          />
+        </Link>
       </div>
 
-      {/* Right: Search Icon (optional) */}
-      <button className="p-2">
-        <Search className="w-6 h-6 text-white" />
-      </button>
+      {/* Right: About Link */}
+      <div className="p-2">
+        <Link href="/about" className="text-white hover:underline">
+          About
+        </Link>
+      </div>
     </nav>
   );
 }

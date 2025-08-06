@@ -1,7 +1,8 @@
 "use client";
 
-import Navbar from "../../components/Navbar";
-import HeroSlide from "../../components/HeroSlide";
+import Navbar from "./components/Navbar";
+import HeroSlide from "./components/HeroSlide";
+import About from "./components/About";
 import { Linkedin, Instagram } from "lucide-react";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       {/* HERO SECTION */}
       <Navbar />
       <HeroSlide />
+      <About />
 
       {/* INFO SECTION */}
       <section
