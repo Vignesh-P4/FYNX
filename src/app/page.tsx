@@ -1,8 +1,8 @@
 "use client";
 
-import Navbar from "./components/Navbar";
-import HeroSlide from "./components/HeroSlide";
-import About from "./components/About";
+import Navbar from "../../components/Navbar";
+import HeroSlide from "../../components/HeroSlide";
+import About from "../../components/About";
 import { Linkedin, Instagram } from "lucide-react";
 
 export default function Home() {
