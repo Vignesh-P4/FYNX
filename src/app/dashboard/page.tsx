@@ -10,7 +10,7 @@ export default function Dashboard() {
 
   const handleLogout = () => {
     localStorage.removeItem('user'); // Clear fake session
-    router.push('/login');
+    router.push('/');
   };
 
   const sections = [
