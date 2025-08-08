@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="bg-black text-white">
       {/* HERO SECTION */}
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSlide />
       <About />
 
